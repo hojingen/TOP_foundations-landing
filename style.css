@@ -3,14 +3,13 @@ body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
 
-.head_container, .section_1 {
+.head_container{
     background-color: #1F2937;
     color: #F9FAF8; 
     display: flex;
     padding: 2px 100px;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .head {
@@ -18,7 +17,7 @@ body {
     font-weight: bold;
 }
 
-.links, .s1_subtitle {   
+.links, .s1 .subtitle {   
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
@@ -31,31 +30,32 @@ a {
     color: white;
 }
 
-.section_1 {
+.s1 {
+    background-color: #1F2937;
+    color: #F9FAF8; 
     display: flex;
-    gap: 40px;
+    gap: 70px;
     padding: 50px 100px;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
-.s1_title {
+.s1 .title {
     font-size: 48px;
     font-weight: 800;
     margin: 0;
 }
 
-.s1_left > * {
+.s1 .left {
+    max-width: 480px;
+}
+
+.s1 .left > * {
     margin-bottom: 12px;
-    
 }
 
-img {
-    max-width: 100%;
-    max-height: auto;
-}
-
-.button1 {
+.s1 button {
     background-color: #3882F6;
     color: white;
     padding: 10px 24px;
@@ -64,3 +64,10 @@ img {
     font-weight: bold;
     font-size: 18px;
 }
+
+
+.s1 img {
+    max-width: 100%;
+    max-height: auto;
+}
+
