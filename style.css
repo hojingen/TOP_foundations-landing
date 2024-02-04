@@ -28,7 +28,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #sE5E7EB;
+    color: #E5E7EB;
 }
 
 .s1 {
@@ -90,6 +90,7 @@ a {
     align-items: space-around;
     flex-wrap: wrap;
     gap: 60px;
+    margin-bottom: 40px;
 }
 
 .s2 .container > * {
@@ -102,3 +103,27 @@ a {
     border-radius: 15px;
     margin-bottom: 6px;
 } 
+
+.s3 {
+    background-color: #E5E7EB;
+    padding: 80px 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.s3 .quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 80;
+    margin: 0;
+    padding: 0;
+}
+
+.s3 .source {
+    color: #1F2937;
+    font-weight: bold;
+    margin: 0;
+    padding: 8px 0px;
+    align-self: flex-end;
+}
