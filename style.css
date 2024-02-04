@@ -1,6 +1,7 @@
 
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    margin: 0;
 }
 
 .head_container{
@@ -27,7 +28,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #sE5E7EB;
 }
 
 .s1 {
@@ -65,9 +66,39 @@ a {
     font-size: 18px;
 }
 
-
 .s1 img {
     max-width: 100%;
     max-height: auto;
 }
 
+.s2 {
+    display: flex;
+    padding: 2px 100px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.s2 .title {
+    font-size: 36px; 
+    font-weight: 800;
+    color: #1F2937;
+    padding: 20px;
+}
+.s2 .container {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.s2 .container > * {
+    max-width: 150px;
+    color: grey;
+}
+
+.s2 img {
+    border: #3882F6 4px solid;
+    border-radius: 15px;
+    margin-bottom: 6px;
+} 
